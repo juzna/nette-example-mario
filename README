@@ -1,0 +1,11 @@
+This is an example project done in Nette framework (nette.org)
+It's supposed for learning purposes only
+
+How to install it:
+ - Get Apache 2.2, PHP 5.3, mySQL server
+ - Download Nette and Dibi (perhaps from Github)
+ - Download this projects from Github
+ - Place symbolic links to lib/ dir of this projects pointing to your location of libraries
+ - Configure virtual hosts in you apache web server
+ - Enjoy
+

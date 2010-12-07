@@ -1,0 +1,15 @@
+{block #content}
+
+<h1>guestbook</h1>
+
+{control guestBookForm}
+
+<div>
+ {foreach $gb as $item}
+ <div>
+   <p><strong>From {$item->from}</strong>, {$item->title}</p>
+   {$item->title}<br />
+ </div>
+ {/foreach}
+</div>
+

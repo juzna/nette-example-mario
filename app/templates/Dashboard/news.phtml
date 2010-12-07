@@ -1,0 +1,12 @@
+{block #content}
+
+<h1>New should be here</h1>
+
+<table>
+  <tr n:foreach="$news as $item">
+    <td><a href="{link newsDetail, $item->id}" title="{$item->content|truncate:10}">{$item->title}</a></td>
+    <td>{$item->content|truncate:10}</td>
+    <td>{$item->published|date}</td>
+  </tr>
+</table>
+
